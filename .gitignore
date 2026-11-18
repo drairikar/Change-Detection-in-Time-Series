@@ -1,0 +1,15 @@
+# MATLAB
+*.asv
+*.m~
+slprj/
+*.mex*
+octave-workspace
+
+# OS / editor
+.DS_Store
+Thumbs.db
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/

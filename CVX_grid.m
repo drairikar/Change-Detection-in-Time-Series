@@ -21,7 +21,7 @@ if exist('change_detection.mat', 'file')
      
     count_a = sum(data.a ~= 1) ;
     count_b = sum(data.b ~= -0.8);
-    count_c = sum(data.b ~= -0.2);
+    count_c = sum(data.c ~= -0.2);
     
     disp(['The number of elements not in 1: ', num2str(count_a)])
     disp(['The number of elements not in -0.8: ', num2str(count_b)])
